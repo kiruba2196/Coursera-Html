@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  background: #c5c9c9;
+  margin: 10px;
+  padding: 10px;
+}
+
+.product-title {
+  margin: 25px;
+  text-align: center;
+  font-style: bold;
+  font-size: 175%;
+}
+
+.title {
+  font-size: 150%;
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.navbar-brand {
+  clear: both;
+  margin-top: -25px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .product {
+    margin-bottom: 20px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .product {
+    margin-bottom: 20px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .product {
+    margin-bottom: 10px;
+  }
+
+  #collapsable-nav a {
+    clear: right;
+    text-align: center;
+    background: #c3e2e3;
+  }
+
+  #collapsable-nav li {
+    border: 1px solid Grey;
+  }
+}
